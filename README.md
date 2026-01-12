@@ -1,22 +1,39 @@
-# PHP Login System
+# PHP Login System with Backend Dashboard
 
-This is a simple PHP login system built using:
-- HTML
-- PHP
-- MySQL
+This project is a simple authentication system built using **HTML, PHP, and MySQL**.  
+It demonstrates how a backend server validates user credentials, stores login records, and detects logged-in users using sessions.
 
-## Features
-- Login form using HTML
-- Backend validation using PHP
-- User credentials stored in MySQL
-- Runs on XAMPP (Apache + MySQL)
+---
 
-## How it works
-1. User enters username and password
-2. Form sends data to login.php
-3. PHP connects to MySQL database
-4. Credentials are validated from users table
+## 🔧 Technologies Used
+- HTML (Frontend)
+- PHP (Backend)
+- MySQL (Database)
+- XAMPP (Apache & MySQL)
 
-## Note
-This project runs locally using XAMPP.
-GitHub repository is for code review purposes.
+---
+
+## 📌 Features
+- User login using username and password
+- Credentials validated from MySQL database
+- Login state stored using PHP sessions
+- Backend dashboard detects logged-in user
+- Backend displays **multiple login records with timestamps**
+- Access to backend is blocked if user is not logged in
+
+---
+
+## 🧠 How the System Works
+1. User opens the login page (`login.html`)
+2. User enters credentials and submits the form
+3. `login.php`:
+   - Validates credentials from the `users` table
+   - Stores the logged-in user in a PHP session
+   - Stores each login event in the database with timestamp
+4. `backend.php`:
+   - Checks the session to detect the logged-in user
+   - Displays all login records stored in the database
+
+---
+
+## 📂 Project Structure
