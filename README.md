@@ -5,7 +5,7 @@ It demonstrates how a backend server validates user credentials, stores login re
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 - HTML (Frontend)
 - PHP (Backend)
 - MySQL (Database)
@@ -13,7 +13,7 @@ It demonstrates how a backend server validates user credentials, stores login re
 
 ---
 
-## 📌 Features
+## Features
 - User login using username and password
 - Credentials validated from MySQL database
 - Login state stored using PHP sessions
@@ -23,7 +23,7 @@ It demonstrates how a backend server validates user credentials, stores login re
 
 ---
 
-## 🧠 How the System Works
+## How the System Works
 1. User opens the login page (`login.html`)
 2. User enters credentials and submits the form
 3. `login.php`:
@@ -34,6 +34,3 @@ It demonstrates how a backend server validates user credentials, stores login re
    - Checks the session to detect the logged-in user
    - Displays all login records stored in the database
 
----
-
-## 📂 Project Structure
